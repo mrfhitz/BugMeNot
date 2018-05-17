@@ -1,0 +1,20 @@
+{
+   "name": "BugMeNot",
+   "description": "Give you a list of users for te current page.",
+   "version": "1.1",
+   "manifest_version": 2,
+
+   "browser_action": {
+      "default_icon": "img/icon_16.png",
+      "default_popup": "popup.html"
+   },
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "48": "img/icon_48.png"
+   },
+   "permissions": [
+      "http://bugmenot.com/*",
+      "tabs"
+   ]
+}
