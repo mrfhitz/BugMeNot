@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
 
-    height: 640px;
+    height: 570px;
     width: 420px;
 
     overflow-y: scroll;
@@ -132,7 +132,6 @@ article .data {
     text-shadow: 1px 1px rgba(0, 0, 0, .8);
     max-width: 76%;
     overflow: hidden;
-    overflow-x: scroll;
 }
 
 article .data:focus {
@@ -286,4 +285,22 @@ article .stats .success_10  { background-color: rgba(247, 22, 0, .1); color: rgb
 }
 .col-half {
     width: 50%;
+}
+
+/* SLIM SCROLLBAR */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #38343a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f10000;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #880000;
 }

@@ -1,7 +1,7 @@
 {
    "name": "BugMeNot",
    "description": "Give you a list of users for te current page.",
-   "version": "27.0",
+   "version": "100.18.15.27",
    "manifest_version": 2,
 
    "browser_action": {
